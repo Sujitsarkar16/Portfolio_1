@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(../public/Fonts/Gilroy-Light.ttf);
+}
+@font-face {
+  font-family: potrait;
+  src: url(../public/Fonts/Portrait-Light.ttf);
+}
+@font-face {
+  font-family: south;
+  src: url(../public/Fonts/South\ Rattingson.ttf);
+}
+
+nav {
+  z-index: 1000;
+  padding: 1.5em;
+  position: fixed;
+  margin-left: 37vw;
+}
+
+.items {
+  /* position: fixed; */
+  display: flex;
+  width: 50vw;
+  /* justify-content: space-between; */
+  gap: 2.5rem;
+
+  align-items: center;
+  cursor: pointer;
+}
+.items > li {
+  list-style-type: none;
+  font-family: potrait;
+  font-weight: 600;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");

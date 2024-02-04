@@ -1,0 +1,46 @@
+#about {
+  height: 100vh;
+  width: 100%;
+  background-color: #181818;
+  color: white;
+}
+
+.description {
+  padding: 3em;
+}
+
+.greetings {
+  font-family: south;
+  font-size: 42px;
+  padding-top: 10vh;
+}
+
+.para-1 {
+  font-family: poppins;
+  font-size: 32px;
+  width: 80vw;
+  color: rgb(102, 99, 99);
+  text-rendering: auto;
+  margin-top: 10vh;
+  text-align: start;
+}
+@media (max-width: 600px) {
+  #about {
+    position: relative;
+  }
+  .para-1 {
+    font-family: poppins;
+    font-size: 14px;
+    width: 80vw;
+    right: 10vw;
+    color: rgb(102, 99, 99);
+    margin-top: 5vh;
+    /* text-align: center; */
+  }
+  .greetings {
+    font-family: south;
+    font-size: 22px;
+    padding-top: 10vh;
+    padding-left: 0vw;
+  }
+}
